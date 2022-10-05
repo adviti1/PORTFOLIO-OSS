@@ -6,8 +6,6 @@
 html {
     scroll-behavior: smooth;
   }
-
-  
 .nav{
   display: flex;
   justify-content: center;
@@ -28,6 +26,11 @@ html {
   cursor: pointer;
   justify-content: space-around;
 }
+.button:hover{
+    background-color: #5d5656;
+    font-style: oblique;
+    transition-duration: 0.4s;
+}
 .nav li{
     display:inline-block;
     border-color: gray;
@@ -38,10 +41,6 @@ html {
 .nav li a{
     color: black;
 }
-.button :hover{
-    font-style: oblique;
-    transition-duration: 0.4s;
-}
 .flex-container {
     display: flex;
     height: 920px;
@@ -49,7 +48,7 @@ html {
     align-items: center;
 }
 .parallax {
-    background-image: url("6844457.jpg");
+    background-image: url("./6844457.jpg");
     min-height: 600px;
     background-attachment: fixed;
     backface-visibility: hidden;
@@ -59,7 +58,8 @@ html {
     border-top: 0;
   }
   .parallax1 {
-    background-image: url("1c19e086128681.5d909dad462a4.jpg");
+    border-radius:50px;
+    background-image: url("./1c19e086128681.5d909dad462a4.jpg");
     min-height: 600px;
     background-attachment: fixed;
     backface-visibility: hidden;
@@ -69,7 +69,8 @@ html {
     border-top: 0;
   }
   .parallax2 {
-    background-image: url("WallpaperDog-713218.jpg");
+    border-radius: 50px;
+    background-image: url("img\WallpaperDog-713218.jpg");
     min-height: 600px;
     background-attachment: fixed;
     backface-visibility: hidden;
@@ -98,22 +99,22 @@ html {
     text-align: center;
     font-size:80px;
     color:white;
-    text-shadow: 10px 10px 40px #330aea;
-    text-decoration: underline;
+    text-shadow: 10px 10px 40px #8f7ddd;
+    /*text-decoration: underline;*/
 }
 .flex-container1 {
     display: flex;
     flex-direction: row;
     justify-content:center ;
 }
-div img{
+.fex-container1div img{
     display: inline-block;
     justify-content: space-around;
     justify-content: left;
     margin-top: 50px;
     margin-right: 0;
 }
-div img:hover{
+.flex-container1 div img:hover{
     transform:scaleX(-1);
     cursor: pointer;
 }
@@ -151,20 +152,48 @@ color: aliceblue;
 }
 .skill {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
-.skill img {
-    display:inline-block;
+.skill li{
+    display: inline-block;
+    justify-items: center;
     justify-content: space-around;
 }
+.skill li a{
+    display:inline-block;
+    justify-content: center;
+    justify-items: baseline;
+    justify-content: space-around;
+    margin:80px;
+}
+.img{
+    height:100px;
+}
 .about{
+    border-radius: 50px;
+    border: 2px solid #070707;
     background-color: black; 
     height: 900px;
 }
-
-#grad {
-    height: 200px;
-    background-color: rgb(136, 165, 214);
-    background-image: linear-gradient(rgb(89, 9, 225), rgb(191, 209, 235));
+.contact{
+    display :flex;
+    justify-content: center;
+}
+.contact li{
+    display: inline-block;
+    justify-items: center;
+    justify-content: space-around;
+}
+.contact li a{
+    display:inline-block;
+    justify-content: center;
+     font-size:80px;
+     margin: 50px;
+    
+}
+.contact li:hover{
+    cursor: pointer;
+ transform:scaleX(-1) ;
+ color: #fdfefe;
+ transition-duration: 1s;
 }
