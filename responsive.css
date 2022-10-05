@@ -1,14 +1,13 @@
 @media screen and (max-width: 1000px) {
 .nav{
-    position:relative;
-    display:block;
+    justify-content: column;
+    justify-content: left;
 }
 .nav li{
-    display:none;
-    position:fixed;
-    flex:5%;
+    display: block;
     font-size:5vw;
     padding:5vw;
+    width:10vw;
 }
 .flex-container{
     height:80vw;
