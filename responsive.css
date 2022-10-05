@@ -2,6 +2,7 @@
 .nav{
     justify-content: column;
     justify-content: left;
+    display:none;
 }
 .nav li{
     display: block;
@@ -9,6 +10,9 @@
     padding:5vw;
     width:10vw;
 }
+/*.nav li a{
+    display:none;
+}*/
 .flex-container{
     height:80vw;
     width:100%;
@@ -30,15 +34,22 @@
     font-size: 5vw;
     padding:5vw;
     margin:5vw;
+    width:50vw;
+    height:50vw;
 }
 .content{
     font-size:5vw;
     width:100vw;;
-    box-sizing:border-box;
+    padding:0;
+    border:10vw;
+
 }
 .parallax{
-    background-size:cover;
     max-width:100%;
+}
+.parallax1{
+    max-width:100%;
+    
 }
 .font{
     font-size:20vw;
@@ -80,16 +91,16 @@ div text{
     justify-content: center;
     font-size:10vw; 
     font-style:ludica handwriting ;
-    /* margin:3vw; */
-    /* padding:1vw; */
+    margin:0;
+    width:auto;
+    padding:0vw; 
 }
 #grad{
     height:50vw;
 }
 .about{
     background-color: black; 
-    height:100vw;
+    height:100%;
     width:100vw
 }
-    
 }
