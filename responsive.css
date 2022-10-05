@@ -24,8 +24,8 @@
     width:auto;
 }
 .flex-container1 div img{
-    height: 24vh;
-    width: auto;
+    height: 100vh;
+    width: 100%;
 }
 .heading{
     font-size:10vw;
@@ -52,7 +52,7 @@
     
 }
 .font{
-    font-size:20vw;
+    font-size:10vw;
 }
 .font1{
     font-size:5vw;
