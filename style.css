@@ -70,7 +70,7 @@ html {
   }
   .parallax2 {
     border-radius: 50px;
-    background-image: url("img\WallpaperDog-713218.jpg");
+    background-image: url("./WallpaperDog-713218.jpg");
     min-height: 600px;
     background-attachment: fixed;
     backface-visibility: hidden;
@@ -106,13 +106,15 @@ html {
     display: flex;
     flex-direction: row;
     justify-content:center ;
+    z-index: 1;
 }
-.fex-container1div img{
+.flex-container1 div img{
     display: inline-block;
     justify-content: space-around;
     justify-content: left;
     margin-top: 50px;
     margin-right: 0;
+   
 }
 .flex-container1 div img:hover{
     transform:scaleX(-1);
@@ -140,7 +142,7 @@ html {
     font-family: cursive;
     text-align: justify;
     color: white;
-    width: 900px;
+    width: 350px;
   height: 500px;
   padding: 10px;
 }
@@ -167,7 +169,7 @@ color: aliceblue;
     margin:80px;
 }
 .img{
-    height:100px;
+    height:300px;
 }
 .about{
     border-radius: 50px;
