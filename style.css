@@ -1,0 +1,170 @@
+*{box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(13, 13, 14); 
+  overflow: hidden;
+  text-align:center;
+  position:fixed;
+  top:0;
+ scroll-behavior: smooth;
+}
+.button{
+    background-color: white;
+    border:10px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: space-around;
+}
+.nav li{
+    display:inline-block;
+    border-color: gray;
+    margin:0;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav li a{
+    color: black;
+}
+.button :hover{
+    font-style: oblique;
+    transition-duration: 0.4s;
+}
+.flex-container {
+    display: flex;
+    height: 920px;
+    justify-content: center;
+    align-items: center;
+}
+.parallax {
+    background-image: url("6844457.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    backface-visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+  }
+  .parallax1 {
+    background-image: url("1c19e086128681.5d909dad462a4.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    backface-visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+  }
+  .parallax2 {
+    background-image: url("WallpaperDog-713218.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    backface-visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+  }
+.font{
+    font-size:200px;
+    font-display: center;
+    font-family:ludica handwriting;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line:underline;
+}
+.font1{
+    font-size:20px;
+    font-style: italic;
+    margin-top: 100px;;
+    color: aliceblue;
+    text-align: center;
+}
+.heading
+{   font-family:ludica handwriting;
+    text-align: center;
+    font-size:80px;
+    color:white;
+    text-shadow: 10px 10px 40px #330aea;
+    text-decoration: underline;
+}
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+}
+div img{
+    display: inline-block;
+    justify-content: space-around;
+    justify-content: left;
+    margin-top: 50px;
+    margin-right: 0;
+}
+div img:hover{
+    transform:scaleX(-1);
+    cursor: pointer;
+}
+.text{
+    display :inline-block;
+    justify-content: center;
+    justify-content:right;
+    font-style:'ludica handwriting' ;
+    width:550px;
+    color: white;
+
+}
+.text h2{
+    color:white;
+     font-size:50px; 
+    font-style:'ludica handwriting' ;
+}
+.text h3{
+    font-size: 25px;
+}
+.content{
+    font-size: 35px;
+    font-family: cursive;
+    text-align: justify;
+    color: white;
+    width: 900px;
+  height: 500px;
+  padding: 10px;
+}
+div h1{
+color: #fdfefe;
+}
+div h2{
+color: aliceblue;
+}
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skill img {
+    display:inline-block;
+    justify-content: space-around;
+}
+.about{
+    background-color: black; 
+    height: 900px;
+}
+
+#grad {
+    height: 200px;
+    background-color: rgb(136, 165, 214);
+    background-image: linear-gradient(rgb(89, 9, 225), rgb(191, 209, 235));
+}
