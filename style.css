@@ -15,6 +15,7 @@ html {
   position:fixed;
   top:0;
  scroll-behavior: smooth;
+ z-index: 1;
 }
 .button{
     background-color: white;
@@ -142,8 +143,8 @@ html {
     font-family: cursive;
     text-align: justify;
     color: white;
-    width: 350px;
-  height: 500px;
+    /* width: 350px;
+  height: 500px; */
   padding: 10px;
 }
 div h1{
@@ -154,20 +155,25 @@ color: aliceblue;
 }
 .skill {
     display: flex;
+    margin-top: 40vh;
     justify-content: center;
 }
-.skill li{
-    display: inline-block;
+.skill i{
+    /* display: inline-block; */
     justify-items: center;
     justify-content: space-around;
+    /* width: 10vw; */
+    padding: 0 20px;
+    font-size: 200px;
+
 }
-.skill li a{
+/* .skill li a{
     display:inline-block;
     justify-content: center;
     justify-items: baseline;
     justify-content: space-around;
     margin:80px;
-}
+} */
 .img{
     height:300px;
 }
