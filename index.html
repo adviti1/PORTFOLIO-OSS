@@ -6,15 +6,18 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9bd27d1040.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="responsive.css">
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
+    <script>
+        function myFunction() {
+          document.getElementById("demo").style.display= 'none';
+        }
+        </script>   
   
 </head>
 <body class="parallax">
 <header>
-    <nav>
-        <ul class="nav">
+    <nav class="nav">
+        <ul>
             <li class="heading">Portfolio</li>
             <li class="button"><a href="#home"><i class="fa-solid fa-house-user"></i>Home</a></li>
             <li class="button"><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
@@ -41,10 +44,12 @@
         <div class="text">
         <h2>I am Adviti Gangwar</h2>
         <h3>A Front-end Web Developer</h3>
-        <p class="content" >I am a 20-year-old engineering student currently pursuing
+        <p class="content" id="demo" >I am a 20-year-old engineering student currently pursuing
             <b> BTech Information Technology</b> from Ajay kumar garg engineering college,Ghaziabad. 
             I am a passionate self-learner,exploring and building projects using various technologies.
              I am a frontend web developer well versed in HTML, CSS, stand at a beginner level of JavaScript.</p>
+             <button type="button" onclick="myFunction()">Read less</button>
+
     </div>
     </div>
     </div>
@@ -81,12 +86,6 @@
            <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a></li> 
         </ul>
     
-    </div>
-    <div style="height:100px"></div>
-    <div class="thankyou">
-        <p id="demo" style="display:none">Thankyou!</p>
-
-<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
     </div>
 </footer>
    
